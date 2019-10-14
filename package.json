@@ -4,6 +4,7 @@
     "description": "A native C++ implementation of AVL tree for node.js",
     "main": "index.ts",
     "scripts": {
+        "debug-build": "node-gyp rebuild --debug",
         "build": "node-gyp rebuild",
         "clean": "node-gyp clean",
         "test": "echo \"Error: no test specified\" && exit 1"
